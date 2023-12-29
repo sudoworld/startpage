@@ -457,8 +457,8 @@ window.CONFIG = {
       ],
       icon: 'amazon',
       key: 'KeyA',
-      url: 'https://www.amazon.com/',
-      normalisedURL: 'amazon.com',
+      url: 'https://www.amazon.de/',
+      normalisedURL: 'amazon.de',
       bgColor: {
         type: 'gradient',
         gradientType: 'linear',
