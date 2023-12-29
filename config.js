@@ -139,13 +139,40 @@ window.CONFIG = {
     },
     {
       category: 'Programming',
+      name: 'Startseite',
+      icon: 'google',
+      url: 'https://startseite.to',
+      normalisedURL: 'startseite.to',
+      triggers: [
+        's',
+        'st',
+      ],
+      key: 'KeyS',
+      commands: {
+        search: {
+          template: '{@}/search?q={$}'
+        },
+        go: {
+          template: '{@}/questions/{$}',
+          description: 'go to question'
+        }
+      },
+      bgColor: {
+        type: 'gradient',
+        gradientType: 'linear',
+        colors: ['#e87922', '#ffbe25'],
+        stops: [0, 100]
+      },
+      textColor: '#212121',
+      pinned: true
+    },
+    {
+      category: 'Programming',
       name: 'StackOverflow',
       icon: 'stackoverflow',
       url: 'https://stackoverflow.com',
       normalisedURL: 'stackoverflow.com',
       triggers: [
-        's',
-        'st',
         'so',
         'stack',
         'stackoverflow'
