@@ -224,7 +224,7 @@ window.CONFIG = {
       url: 'https://translate.google.com',
       normalisedURL: 'translate.google.com',
       triggers: [
-        't',
+        'gt',
         'translate'
       ],
       key: 'KeyT',
@@ -327,6 +327,7 @@ window.CONFIG = {
       url: 'https://twitch.tv',
       normalisedURL: 'twitch.tv',
       triggers: [
+        't',
         'tw',
         'twitch',
       ],
