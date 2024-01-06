@@ -111,6 +111,33 @@ window.CONFIG = {
     },
     {
       category: 'Programming',
+      name: 'Codeberg',
+      icon: 'github',
+      url: 'https://codeberg.org',
+      normalisedURL: 'codeberg.org',
+      triggers: [
+        'code',
+        'co',
+      ],
+      key: 'KeyG',
+      commands: {
+        go: {
+          template: '{@}/{$}',
+          description: 'go to user'
+        },
+        search: {
+          template: '{@}/search?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#0C1A24'
+      },
+      textColor: '#D8DEE9',
+      pinned: true
+    },
+    {
+      category: 'Programming',
       name: 'GitHub',
       icon: 'github',
       url: 'https://github.com',
